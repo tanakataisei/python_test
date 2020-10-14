@@ -1,0 +1,2 @@
+# python_test
+適当にpythonプログラムを動かしたい時に使う
