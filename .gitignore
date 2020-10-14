@@ -1,0 +1,14 @@
+.Python
+bin/
+include/
+lib/
+man/
+local/
+*.pyc
+__pycache__/
+pip-selfcheck.json
+src/config.py
+log/
+
+.vscode
+.DS_Store

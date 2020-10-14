@@ -1,0 +1,14 @@
+version: '3'
+services:
+  python3:
+    restart: always
+    build: .
+    container_name: 'python3'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./tmp:/root/tmp
+    extra_hosts:
+      - "DESKTOP-BEROJQP:192.168.0.106"
+    ports:
+      - 3306:3306
